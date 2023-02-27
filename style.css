@@ -1,0 +1,97 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    width: 100%;
+}
+
+.mid {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 6vw;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: auto;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 4px;
+}
+
+nav ul li {}
+
+nav ul li a {
+    text-decoration: none;
+    color: #deb865;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-family: 'Kanit', sans-serif;
+    background: -webkit-linear-gradient(#333, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.right {
+    color: #deb865;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.right:hover{
+    color: #eee ;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    float: right;
+    margin: 50px 100px;
+    color: #eee
+}
+
+footer a {
+    text-decoration: none;
+    color: #deb865
+}
